@@ -21,7 +21,7 @@ body {
        - The first column (nav) takes up 1 fraction of the space
        - The second column (main) takes up 4 fractions of the space
        - The third column (aside, which is not used here) takes up 2 fractions of the space */
-    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-columns: 2fr 4fr 2fr;
 
     /* - "header header header": the header spans all three columns
        - "nav main aside": the navigation, main content, and an aside (not used) each occupy their respective columns
