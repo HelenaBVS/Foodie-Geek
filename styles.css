@@ -10,8 +10,7 @@ body {
 
 /* Grid Container */
 .container {
-    /* Enables grid layout to organize the page elements in a structured manner */
-    display: grid;
+    display: grid; /* Enables grid layout to organize the page elements in a structured manner */
 
     /* Defines the grid's row structure:
        - The first and last rows (header and footer) each take up 1 fraction of the space
@@ -44,12 +43,9 @@ body {
 
     background-image: url("pics/perfil-cientista.png");
 
-    /* Ensures the background image covers the entire container. If the image is smaller than the container, it will be scaled up; if it's larger, it will be scaled down to fit */
-    background-size: cover;
-    /* Centers the background image within the container */
+    background-size: cover; /* Centers the background image within the container */
     background-position: center;
-    /* The background image stays static while the user scrolls */
-    position: fixed;
+    position: fixed; /* The background image stays static while the user scrolls */
 
     /* Ensures the background covers the entire viewport, extending to the edges of the screen */
     top: 0;
@@ -66,7 +62,7 @@ body {
 /* Header Styles */
 header {
     grid-area: header;
-    background-color: rgba(2, 5, 56, 0.6); /* Blue with transparency */
+    background-color: rgba(2, 5, 56, 0.6);
     padding: 1em;
     text-align: center;
     font-size: 2em;
@@ -86,17 +82,28 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column; /* Stacks the buttons vertically */
+    align-items: center; /* Centers the buttons horizontally */
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 85px 0; /* Adds vertical spacing between buttons */
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    background-color: rgba(210 ,73 ,65, 0.8);
+    padding: 10px 20px; /* Adds padding for better clickability */
+    border-radius: 25px; /* Makes the buttons rounded */
+    width: 200px; /* Sets a fixed width for the buttons */
+    text-align: center; /* Centers the text inside the buttons */
+    display: block; /* Makes the link behave like a block element */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 99, 71, 1); /* Changes background color on hover */
 }
 
 /* Main Content Styles */
