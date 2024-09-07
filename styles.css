@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
 /* Background Image */
 /* The 'body' selector applies styles to the entire body of the page */
 body {
     margin: 0;
     padding: 0;
 
-    font-family: 'Comic Sans MS', sans-serif;
     color: white;
 }
 
-/* Grid Container */
+/* General container styles */
 .container {
     display: grid; /* Enables grid layout to organize the page elements in a structured manner */
 
@@ -65,8 +67,9 @@ header {
     background-color: rgba(2, 5, 56, 0.6);
     padding: 1em;
     text-align: center;
-    font-size: 2em;
-    border-radius: 10px;
+    font-size: 2.5em;
+    border-radius: 100px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* Navigation Styles */
@@ -77,6 +80,7 @@ nav {
     border-radius: 10px;
 }
 
+/* Sessions */ 
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -94,10 +98,11 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 1.2em;
     background-color: rgba(115, 179, 90, 0.8);
-    padding: 10px 20px; /* Adds padding for better clickability */
-    border-radius: 25px; /* Makes the buttons rounded */
-    width: 200px; /* Sets a fixed width for the buttons */
+    padding: 20px 40px; /* Adds padding for better clickability */
+    border-radius: 25px; /* Rounded buttons */
+    width: 250px; /* Sets a fixed width for the buttons */
     text-align: center; /* Centers the text inside the buttons */
     display: block; /* Makes the link behave like a block element */
 }
@@ -112,6 +117,35 @@ main {
     background-color: rgba(2, 5, 56, 0.8); 
     padding: 1em;
     border-radius: 10px;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 1.5em; 
+    text-align: center;
+    color: #fff; 
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+header h2 {
+    font-family: 'Amatic SC', cursive; 
+    font-size: 1.5em; 
+    text-align: center;
+    color: #05ff71; 
+}
+
+main h3 {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 1.8em; 
+    color: #fff;
+}
+
+
+.text-body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    line-height: 2.0;
+    color: white;
 }
 
 /* Aside (Sidebar) Styles */
