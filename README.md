@@ -1,4 +1,4 @@
-# Project Title: Foodie Geek - Unveiling the Science Behind Gluten-Free Cooking
+# Foodie Geek - Unveiling the Science Behind Gluten-Free Cooking
 
 **Accessible and fun nutritional education!**
 
