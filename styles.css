@@ -16,7 +16,8 @@ body {
 
 /* General container styles */
 .container {
-    display: grid; /* Enables grid layout to organize the page elements in a structured manner */
+    display: grid;
+    /* Enables grid layout to organize the page elements in a structured manner */
 
     /* Defines the grid's row structure:
        - The first and last rows (header and footer) each take up 1 fraction of the space
@@ -32,12 +33,12 @@ body {
     /* - "header header header": the header spans all three columns
        - "nav main aside": the navigation, main content, and an aside (not used) each occupy their respective columns
        - "footer footer footer": the footer spans all three columns */
-    grid-template-areas: 
+    grid-template-areas:
         "header header header"
         "nav main aside"
         "footer footer footer";
 
-    /* Adds spacing (gap) between the grid items to keep them from being too close together */    
+    /* Adds spacing (gap) between the grid items to keep them from being too close together */
     grid-gap: .75em;
     /* Keeps the content away from the edges of the screen */
     padding: 1em;
@@ -46,14 +47,15 @@ body {
 }
 
 .background {
-     /* Ensures the background covers the entire viewport, extending to the edges of the screen */
-     top: 0;
-     bottom: 0;
-     right: 0;
-     left: 0;
-     position: fixed;
+    /* Ensures the background covers the entire viewport, extending to the edges of the screen */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
 
-    background-size: cover; /* Centers the background image within the container */
+    background-size: cover;
+    /* Centers the background image within the container */
     background-position: center;
     background-repeat: no-repeat;
 
@@ -64,6 +66,7 @@ body {
 .background-home {
     background-image: url("pics/perfil-cientista.png");
 }
+
 /* Override background for summer recipes */
 .background-summer {
     background-image: url('pics/background-style.png');
@@ -89,18 +92,21 @@ nav {
     border-radius: 10px;
 }
 
-/* Sessions */ 
+/* Sessions */
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column; /* Stacks the buttons vertically */
-    align-items: center; /* Centers the buttons horizontally */
+    flex-direction: column;
+    /* Stacks the buttons vertically */
+    align-items: center;
+    /* Centers the buttons horizontally */
 }
 
 nav ul li {
-    margin: 85px 0; /* Adds vertical spacing between buttons */
+    margin: 85px 0;
+    /* Adds vertical spacing between buttons */
 }
 
 nav ul li a {
@@ -109,43 +115,49 @@ nav ul li a {
     font-weight: bold;
     font-size: 1.2em;
     background-color: rgba(115, 179, 90, 0.8);
-    padding: 20px 40px; /* Adds padding for better clickability */
-    border-radius: 25px; /* Rounded buttons */
-    width: 300px; /* Sets a fixed width for the buttons */
-    text-align: center; /* Centers the text inside the buttons */
-    display: block; /* Makes the link behave like a block element */
+    padding: 20px 40px;
+    /* Adds padding for better clickability */
+    border-radius: 25px;
+    /* Rounded buttons */
+    width: 300px;
+    /* Sets a fixed width for the buttons */
+    text-align: center;
+    /* Centers the text inside the buttons */
+    display: block;
+    /* Makes the link behave like a block element */
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 99, 71, 1); /* Changes background color on hover */
+    background-color: rgba(255, 99, 71, 1);
+    /* Changes background color on hover */
 }
 
 /* Main Content Styles */
 main {
     grid-area: main;
-    background-color: rgba(2, 5, 56, 0.8); 
+    background-color: rgba(2, 5, 56, 0.8);
     padding: 1em;
     border-radius: 10px;
 }
 
 header h1 {
-    font-family: 'Poppins', sans-serif;  
-    font-size: 1.5em; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
     text-align: center;
-    color: #fff; 
+    color: #fff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 header h2 {
-    font-family: 'Amatic SC', cursive; 
-    font-size: 1.5em; 
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
     text-align: center;
-    color: #05ff71; 
+    color: #05ff71;
 }
 
 main h3 {
-    font-family: 'Poppins', sans-serif;  
-    font-size: 1.8em; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
     color: #fff;
 }
 
@@ -160,7 +172,7 @@ main h3 {
 /* Aside (Sidebar) Styles */
 aside {
     grid-area: aside;
-    background-color: rgba(219, 132, 9, 0.8); 
+    background-color: rgba(219, 132, 9, 0.8);
     padding: 1em;
     border-radius: 10px;
 }
@@ -168,16 +180,17 @@ aside {
 /* Footer Styles */
 footer {
     grid-area: footer;
-    background-color: rgba(247, 247, 247, 0.003); 
+    background-color: rgba(247, 247, 247, 0.003);
     padding: 1em;
     text-align: center;
     border-radius: 10px;
 }
 
-/* Summer Recipes */ 
+/* Summer Recipes */
 .recipe-overview {
     display: flex;
-    justify-content: space-between; /* Distributes space evenly between the items */
+    justify-content: space-between;
+    /* Distributes space evenly between the items */
     flex-wrap: wrap;
     gap: 20px;
     /* justify-content: center; */
@@ -190,26 +203,27 @@ footer {
     font-size: 1.2em;
     line-height: 1.8;
     margin-bottom: 20px;
-    color: white; 
-    background-color: rgba(154 ,118 ,224, 0.6); 
+    color: white;
+    background-color: rgba(154, 118, 224, 0.6);
     padding: 15px;
     border-radius: 10px;
 }
 
 .recipe-text {
     /* To do */
-    background-color: rgba(178, 181, 240, 0.7); 
+    background-color: rgba(178, 181, 240, 0.7);
     padding: 18px;
     padding-top: 36px;
 }
 
 .recipe-title {
-    font-family: 'Amatic SC', cursive; 
-    font-size: 3em; 
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
     text-align: center;
     line-height: 1.2;
-    margin: 0; 
+    margin: 0;
 }
+
 /* Recipe Item Styling */
 .recipe-item {
     background-color: rgba(255, 255, 255, 0.1);
@@ -217,12 +231,14 @@ footer {
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease;
-    width: 30%; /* Set the width for the recipe item */
+    width: 30%;
+    /* Set the width for the recipe item */
 }
 
 .recipe-item img {
-    width: 100%; /* Make the image take up 100% of the .recipe-item width */
-    max-width: 300px; 
+    width: 100%;
+    /* Make the image take up 100% of the .recipe-item width */
+    max-width: 300px;
     border-radius: 10px;
 }
 
@@ -242,10 +258,12 @@ footer {
     justify-content: center;
     margin: 36px 0;
 }
+
 .ingredients-image {
     width: 75%;
     border-radius: 10px;
 }
+
 /* Additional seasonal themes can follow the same pattern */
 
 
@@ -255,10 +273,10 @@ footer {
     .container {
         grid-template-rows: 1fr 1fr 5fr 1fr;
         grid-template-columns: 2fr 5fr 3fr;
-        grid-template-areas: 
+        grid-template-areas:
             "header header header"
             "nav nav nav"
-            "main main aside"    
+            "main main aside"
             "footer footer footer";
     }
 }
