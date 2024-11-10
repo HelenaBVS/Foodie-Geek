@@ -1,26 +1,30 @@
-# Foodie Geek - Unveiling the Science Behind Gluten-Free Cooking
+# Foodie Geek - revelando uma ciência por trás da culinária sem glúten
 
-**Accessible and fun nutritional education!**
+![Trabalho em andamento](https://img.shields.io/badge/status-work--in--progress-yellow)
 
-Foodie Geek has the potential to transform the way people perceive and prepare their meals, integrating science and cooking in a practical and accessible way. By promoting the use of seasonal ingredients and healthy eating practices, the project contributes to more conscious and balanced eating while educating and empowering its users.
+> **Este projeto está em desenvolvimento contínuo.** Funcionalidades e documentação podem estar incompletas ou sujeitas a alterações.
 
-## Project Description:
+**Educação nutricional acessível e divertida!**
 
-Foodie Geek is an innovative website that integrates the art of cooking with scientific foundations to create gluten-free recipes, promoting conscious and seasonal eating. The project transforms food preparation into an educational journey about nutrition and sustainable practices, fostering a deeper and more informed relationship with food, aligned with principles of sustainability and holistic health.
+O Foodie Geek tem o potencial de transformar uma forma como pessoas percebem e preparam suas reformas, integrando ciência e culinária de forma prática e acessível. Ao promover o uso de ingredientes sazonais e práticas alimentares saudáveis, o projeto contribui para uma alimentação mais consciente e equilibrada, ao mesmo tempo em que educa e capacita seus usuários.
 
-One of the project’s highlights is the seasonal recipe section, where each recipe is carefully developed to make the most of the ingredients available during the selected country's respective season. The platform also addresses the importance of culinary techniques, such as activating nuts, using healthy fats, and the benefits of natural preservatives found in foods like honey and cloves.
+## Descrição do Projeto:
 
-In addition to recipes, Foodie Geek stands out by providing clear and accessible scientific explanations, allowing users to understand the "why" behind each ingredient and method used. This transforms the cooking experience into an educational journey, enriching users' knowledge of nutrition, food chemistry, and sustainable eating practices.
+Foodie Geek é um site inovador que integra uma arte de cozinhar com fundamentos científicos para criar receitas sem glúten, promovendo uma alimentação consciente e sazonal. O projeto transforma uma preparação de alimentos numa jornada educativa sobre nutrição e práticas sustentáveis, fomentando uma relação mais profunda e informada com alimentação, alinhada com princípios de sustentabilidade e saúde holística.
 
-## Project Objectives:
+Um dos destinos do projeto é uma ação de receitas sazonais, uma vez recebida é cidadosa desenvolvida para aproveitar ao máximo os ingredientes disponíveis durante uma resposta temporária do país selecionado. Uma plataforma também aborda a importação das técnicas culinárias, como uma ação de nozes, o uso de gorduras saudáveis e os benefícios dos conservantes naturais envolvidos em alimentos como mel e cravo.
 
-* Promote awareness of the benefits of seasonal and gluten-free eating.
-* Educate the public about the science behind ingredients and culinary techniques.
-* Offer practical and healthy recipes suitable for different dietary preferences.
-* Foster a deeper and more informed relationship with food, aligned with principles of sustainability and holistic health.
+Além das receitas, o Foodie Geek se destaca por fornecer explicações científicas claras e acessórias, permite que os usuários entendam o "por que" por trans de cada ingrediente e meio usado. Isso transforma uma experiência culinária em uma jornada educacional, enriquecimento ou conhecimento dos usuários sobre nutrição, química alimentar e práticas alimentares sustentáveis.
 
-## Target Audience:
+## Objetivos do Projeto:
 
-* People with dietary restrictions, such as gluten and lactose intolerance.
-* Cooking enthusiasts who seek to better understand the scientific aspects of food.
-* Consumers interested in healthy and sustainable eating.
+* Promova uma consciência sobre os benefícios da alimentação sazonal e sem glúten.
+* Educar o público sobre uma ciência por trás dos ingredientes e técnicas culinárias.
+* Oferça recebitas práticas e saudáveis adequadas para diferentes preferências alimentares.
+* Promova uma relação mais profunda e informada com uma alimentação, alinhada com os princípios da sustentabilidade e da saúde holística.
+
+## Público-alvo:
+
+* Pessoas com restrições alimentares, como intolerância ao glúten e à lactose.
+* Entusiastas da culinária que buscam entender melhor os aspectos científicos dos alimentos.
+* Consumidores interessados em uma alimentação saudável e sustentável.
